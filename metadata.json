@@ -1,0 +1,6 @@
+{
+  "name": "PANTAS",
+  "description": "AI-Powered Circular Economy Platform for food waste reduction, surplus forecasting, and ESG reporting.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

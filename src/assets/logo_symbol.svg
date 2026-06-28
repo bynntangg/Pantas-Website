@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="110 70 280 290" width="100%" height="100%">
+  <defs>
+    <!-- Gradients matching the uploaded Pantas logo -->
+    <linearGradient id="symGreenLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8CE02C"/>
+      <stop offset="100%" stop-color="#1B6D21"/>
+    </linearGradient>
+    <linearGradient id="symHandGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#0E4211"/>
+    </linearGradient>
+    <linearGradient id="symBowlGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7CD923"/>
+      <stop offset="100%" stop-color="#1D6E22"/>
+    </linearGradient>
+    <linearGradient id="symOrangeGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB300"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    <linearGradient id="symArrowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFEB3B"/>
+      <stop offset="50%" stop-color="#FFA726"/>
+      <stop offset="100%" stop-color="#FB8C00"/>
+    </linearGradient>
+  </defs>
+
+  <g transform="translate(0, -10)">
+    <!-- 1. Left side Large Leaf arching over the top -->
+    <path d="M 250,90 
+             C 180,90 120,150 125,230 
+             C 127,260 137,285 150,305 
+             C 135,280 132,240 142,210 
+             C 152,180 180,145 220,125 
+             C 240,115 264,111 283,115 
+             C 270,100 262,90 250,90 Z" 
+          fill="url(#symGreenLeaf)" />
+          
+    <path d="M 283,115 
+             C 245,105 210,120 185,145 
+             C 165,165 155,195 150,225
+             C 152,205 162,185 178,170
+             C 198,150 228,135 258,130
+             C 268,128 276,128 283,115 Z" 
+          fill="#FFFFFF" opacity="0.15" />
+
+    <!-- 2. Orange/Yellow Circular Arrow on the right -->
+    <path d="M 293,115 
+             C 328,125 355,150 365,185 
+             C 375,220 370,260 345,295 
+             C 315,335 265,355 215,350
+             C 255,350 300,330 330,295
+             C 355,260 358,220 348,185
+             C 340,155 318,130 293,115 Z" 
+          fill="url(#symArrowGradient)" />
+          
+    <!-- Arrowhead pointing up-right -->
+    <path d="M 285,145 L 325,100 L 350,150 L 325,135 Z" fill="url(#symArrowGradient)" />
+
+    <!-- 3. Cradling Green Hand at the bottom left -->
+    <path d="M 125,230 
+             C 120,290 160,345 220,350 
+             C 245,351 270,342 288,328
+             C 260,338 230,338 205,325
+             C 175,310 160,285 160,250
+             C 160,242 165,238 175,238
+             C 183,238 190,245 195,252
+             C 205,265 220,272 238,272
+             C 252,272 278,260 288,250
+             C 268,262 245,265 225,258
+             C 195,248 185,222 210,210
+             C 230,202 260,212 280,225
+             C 260,205 220,200 190,212
+             C 165,222 150,210 152,190
+             C 154,165 175,150 195,150
+             C 165,155 140,180 132,210
+             C 128,215 125,222 125,230 Z" 
+          fill="url(#symHandGradient)" />
+
+    <!-- 4. Fresh Bowl of Food items -->
+    <!-- The emerald green bowl -->
+    <path d="M 170,220
+             C 170,265 220,295 270,280
+             C 285,275 298,265 305,250
+             C 285,265 260,270 235,260
+             C 200,245 185,215 170,220 Z" 
+          fill="url(#symBowlGradient)" />
+
+    <!-- Food item: Orange Loaf/Bread (Left) -->
+    <path d="M 180,210 
+             C 175,190 195,170 215,185 
+             C 225,192 235,210 235,220 
+             C 215,220 195,220 180,210 Z" 
+          fill="url(#symOrangeGradient)" />
+    <!-- Slice marks on bread -->
+    <path d="M 190,195 L 195,205" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 202,192 L 208,204" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 215,195 L 220,208" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Food item: Spinach / Green Leaves (Center) -->
+    <path d="M 220,220 C 215,180 235,160 240,140 C 245,160 265,180 260,220 Z" fill="#2E7D32" />
+    <path d="M 230,220 C 228,195 240,180 245,165 C 250,180 262,195 260,220 Z" fill="#4CAF50" />
+    <path d="M 245,220 C 248,205 252,198 256,188 C 260,198 264,205 265,220 Z" fill="#8BC34A" />
+
+    <!-- Food item: Golden Fruit (Right) -->
+    <path d="M 250,220 
+             C 250,190 285,185 295,200 
+             C 305,215 300,235 285,235
+             C 270,235 255,230 250,220 Z" 
+          fill="url(#symOrangeGradient)" />
+    <!-- Small leaf on golden fruit -->
+    <path d="M 280,195 C 278,185 285,180 290,180 C 290,187 285,192 280,195 Z" fill="#4CAF50" />
+
+    <!-- Nutritional optimization dots / circles -->
+    <circle cx="240" cy="130" r="5" fill="#8BC34A" />
+    <circle cx="260" cy="140" r="7" fill="#4CAF50" />
+    <circle cx="270" cy="125" r="4" fill="#FFA726" />
+    <circle cx="282" cy="138" r="6" fill="#FF8F00" />
+  </g>
+</svg>
